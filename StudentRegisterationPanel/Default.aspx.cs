@@ -21,8 +21,8 @@ namespace StudentRegisterationPanel
                 Label4.Text = "Please Enter Student Name";
             }
 
-            //check if course is Selected
-            else if(DropDownList1.SelectedIndex == -1)
+            //check if course is Selected                
+            if(DropDownList1.SelectedIndex == -1)
             {
                 Label4.Text = "Please Select Course";
             }

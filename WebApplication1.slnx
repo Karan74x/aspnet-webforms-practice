@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="CookiesExample/CookiesExample.csproj" Id="3ec016ac-a29d-4adb-bfce-0399b39de2d3" />
+  <Project Path="GridViewExample/GridViewExample.csproj" Id="32394b6d-5bae-4093-b185-b978c6a7779c" />
   <Project Path="ListBoxExample/ListBoxExample.csproj" Id="176d4993-c2f4-4caf-9aa8-ccaa8a736fb1" />
   <Project Path="StudentRegisterationPanel/StudentRegisterationPanel.csproj" Id="2d9abda1-4eeb-4dec-8b12-6de08e570093" />
   <Project Path="WebApplication1/WebApplication1.csproj" Id="85ce1df3-9ce9-4a05-8eda-c21f41ee672c" />

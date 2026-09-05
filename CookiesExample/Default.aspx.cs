@@ -11,8 +11,10 @@ namespace CookiesExample
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            // If the page is opening for the first time
+            if (!IsPostBack)
             {
+                // Check whether a Username cookie already exists
                 if (Request.Cookies["Username"] != null)
                 {
                     TextBox1.Text = Request.Cookies["Username"].Value;
@@ -24,8 +26,11 @@ namespace CookiesExample
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string username = TextBox1.Text;
-          if (TextBox1.Text.Trim()=="" || TextBox2.Text.Trim()=="")
+           // Get the username entered in TextBox1
+           string username = TextBox1.Text;
+
+            // Check whether Username OR Password is empty
+            if (TextBox1.Text.Trim()=="" || TextBox2.Text.Trim()=="")
           {
               Label3.Text = "Please fill in all fields"; 
           }
@@ -34,16 +39,20 @@ namespace CookiesExample
                 //Check Remember me
                 if (CheckBox1.Checked)
                 {
+                    // Store the username inside a cookie
                     Response.Cookies["Username"].Value = username;
 
                     //Cookies expires after 30 days
                     Response.Cookies["Username"].Expires = DateTime.Now.AddDays(30);
 
+
+                    // Show success message
                     Label3.Text = "Login Successful . username saved in cookies";
                 }
                 else
                 {
-                    //Delete the cookie
+                    // User did NOT select Remember Me.
+                    // Delete the existing Username cookie
                     Response.Cookies["Username"].Expires = DateTime.Now.AddDays(-1);
 
                     Label3.Text = "Login Successfull";
