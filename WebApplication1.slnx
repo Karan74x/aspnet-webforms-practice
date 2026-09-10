@@ -1,8 +1,10 @@
 <Solution>
   <Project Path="CookiesExample/CookiesExample.csproj" Id="3ec016ac-a29d-4adb-bfce-0399b39de2d3" />
+  <Project Path="GridView with DataTable Example/GridView with DataTable Example.csproj" Id="0e2ced5c-0cf7-4121-ab0d-3cf99bfff9e6" />
   <Project Path="GridViewExample/GridViewExample.csproj" Id="32394b6d-5bae-4093-b185-b978c6a7779c" />
   <Project Path="ListBoxExample/ListBoxExample.csproj" Id="176d4993-c2f4-4caf-9aa8-ccaa8a736fb1" />
+  <Project Path="ShoppingAndDeliveryForm/ShoppingAndDeliveryForm.csproj" Id="f1d79f9a-0025-4727-8672-d3a49119c40a" />
   <Project Path="StudentRegisterationPanel/StudentRegisterationPanel.csproj" Id="2d9abda1-4eeb-4dec-8b12-6de08e570093" />
-  <Project Path="WebApplication1/WebApplication1.csproj" Id="85ce1df3-9ce9-4a05-8eda-c21f41ee672c" />
+  <Project Path="ValidatorsExample/ValidatorsExample.csproj" Id="1e30303c-5121-4229-8098-3e6a518d9274" />
   <Project Path="WebApplication2/ImageExample.csproj" Id="e916761e-529c-4c6f-9778-4098be67d36b" />
 </Solution>
